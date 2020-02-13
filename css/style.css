@@ -1,12 +1,3 @@
-.wrapper{
-  /* border: red 1px solid; */
-
-}
-.first-row{
-}
-.second-row{
-
-}
 .prodotto{
   position: relative;
   width: 300px;
@@ -20,6 +11,7 @@
   left:0;
   top: 0;
 }
+
 .sconto{
   display: inline-block;
   position: absolute;
@@ -40,10 +32,13 @@
 
 
 .like{
-  /* display: none; */
+  display: none;
   color: red;
   font-size: 100px;
   position: absolute;
   bottom: 34%;
   right: 44%;
+}
+.prodotto:hover .like{
+  display: block;
 }
