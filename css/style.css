@@ -1,28 +1,8 @@
-<<<<<<< HEAD
-=======
-*{
-  margin: 0;
-  padding: 0;
-
-}
-.wrapper{
-  /* border: red 1px solid; */
-
-}
-.first-row{
-  /* border: green 1px solid; */
-}
->>>>>>> master
 .prodotto{
   position: relative;
   width: 300px;
   height: 300px;
-<<<<<<< HEAD
   border: orange 2px solid;  display: inline-block;
-=======
-  border: black 1px solid;
-  display: inline-block;
->>>>>>> master
 }
 .prodotto>img{
   width: 100%;
@@ -31,20 +11,12 @@
   left:0;
   top: 0;
 }
-<<<<<<< HEAD
 
 .sconto{
-=======
-.sconto{
-  border: darkred 1px solid;
-  background-color: red;
-  color: pink;
->>>>>>> master
   display: inline-block;
   position: absolute;
   right: 0;
   top: 0;
-<<<<<<< HEAD
 
 }
 .sconto .red{
@@ -61,20 +33,12 @@
 
 .like{
   display: none;
-=======
-}
-.like{
-  /* display: none; */
->>>>>>> master
   color: red;
   font-size: 100px;
   position: absolute;
   bottom: 34%;
   right: 44%;
 }
-<<<<<<< HEAD
 .prodotto:hover .like{
   display: block;
 }
-=======
->>>>>>> master
